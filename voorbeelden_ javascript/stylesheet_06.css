@@ -13,22 +13,13 @@ body {
     margin: 0;
 }
 
-#wrapper {
-    width: 90%;
-    max-width: 800px;
-    min-width: 200px;
-    
-    height: 100%;
-    overflow: auto;
-    margin-left: 5%;
-}
-
 #content {
   float: left;
-  width: 50%;
+  
+  width: 30%;
+  min-width: 200px;
   
   margin-left: 5%;
-  margin-right: 5%;
 }
 
 article {
@@ -60,11 +51,15 @@ article:first-letter {
 
 #zoom {
   float: left;
-  width: 35%;
+  
+  width: 25%;
+  min-width: 200px;
+  
+  margin-top: 0.5em;
+  margin-left: 5%;
   
   padding-left: 0.5em;
   padding-right: 0.5em;
-  margin-top: 0.5em;
   
   font-size: 2em;
   
@@ -72,5 +67,3 @@ article:first-letter {
   background-color: #060000;
   opacity: 0.8;
 }
-
-

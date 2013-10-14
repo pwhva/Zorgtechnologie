@@ -9,12 +9,10 @@ body {
     margin: 0;
 }
 
-#wrapper {
-    width: 90%;
-    max-width: 800px;
+#content {
+    width: 30%;
     min-width: 200px;
     
-    height: 100%;
     margin-left: 5%;
 }
 
