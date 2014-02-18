@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Een eenvoudige website - 05</title>
+  </head>
+  <body id = "top">
+  
+    <a href = "#afbeeldingen"> Informatie over het toevoegen van afbeeldingen </a>
+  
+    <div id = "content">
+      <h1>HTML</h1>
+    	  
+	    <article id = "links">
+        <h2> Hyperlinks </h2>
+        <p>
+          De 'H' in HTML staat voor hypertext, de mogelijkheid om in documenten links toe te voegen die je naar andere delen van het document of naar andere websites brengen.
+          Links maak je met de <em>a</em>-tag, waarbij 'a' staat voor 'anchor'.
+          Je kunt anchor tags overal in de tekst plaatsen, alle tekst tussen de begintag <strong>&lt;a&gt;</strong> en de eindtag <strong>&lt;/a&gt;</strong>
+          wordt als link weergegeven. Standaard wordt deze tekst blauw en onderstreept. 
+          Zo brengt <a href="www.google.com"> deze tekst </a> je naar een bekende zoekmachine. 
+		      Het doel van een link wordt in de html-code weergegeven met het <em>href</em> attribuut. 
+          Dus om een link te maken die je naar de google website brengt schrijf je: <br /> <br />
+          
+		      <strong>&lt;a href ="http://www.google.com" &gt;link naar google &lt;/a&gt;</strong>
+		    </p>
+		    <p>
+          Om met behulp van links binnen een document te navigeren, moet je de onderdelen van je website zoals sections voorzien van een naam.
+          Dit doe je door een <em>id</em> attribuut toe te voegen. Zo heeft deze sectie het id 'links'. 
+          We kunnen nu een link maken die naar het begin van deze sectie verwijst door als doel van de <em>a</em>-tag deze id te geven, 
+          voorafgegaan door een #. We schrijven dus: <br /><br />
+          <strong>&lt;a href ="#links" &gt; uitleg over hyperlinks &lt;/a&gt;</strong><br /><br />
+          Onderaan deze pagina vind je een voorbeeld van een link die je terugbrengt naar het begin van de pagina. 
+          In dit geval heeft het <em>article</em> dat alle tekst op deze pagina bevat het id 'top' gekregen en verwijst de link naar '#top'.
+		      Structurerende elementen zoals <em>article</em> en <em>section</em> kunnen dus onder andere gebruikt worden om navigatie met behulp van links mogelijk te maken.
+		    </p>
+	    </article>
+
+	    <article>
+        <h2> Afbeeldingen toevoegen </h2>
+        <p> 
+          Een afbeelding wordt toegevoegd met een <em>img</em> tag. 
+          Deze tag heeft een zogenaamd <em>attribuut</em> dat verwijst naar het bestand dat de afbeelding bevat. 
+          Een attribuut bestaat altijd uit een naam, in dit geval <em>src</em> (voor "source"), gevolgd door een = teken 
+          en een <em>waarde</em>, die tussen aanhalingstekens wordt geplaatst. 
+          In dit geval is de waarde de locatie waar de afbeelding gevonden kan worden. 
+          Zo geeft <em>src = "afbeeldingen/bloem.jpg"</em> aan dat de bron het .jpg bestand met de naam 'bloem' in de folder 'afbeeldingen' is.
+	      </p>
+	      <p>	
+          Het attribuut <em>alt</em> geeft een beschrijving van de afbeelding. 
+          Dit atribuut is niet verplicht. Het is echter goed gebruik om het wel toe te voegen, 
+          aangezien het wordt getoond als de afbeelding, om wat voor reden dan ook, (nog) niet getoond wordt.
+          Deze tekst wordt ook voorgelezen door systemen voor slechtzienden.
+        </p>
+	      <p> 
+          De grootte van een afbeelding kan zonodig worden ingesteld met de attributen <em>width</em> en <em>height</em>.
+          Onderstaande afbeelding wordt bijvoorbeeld weergegeven met een breedte van 480 pixels.
+          de volledig tag voor deze afbeelding is:<br /><br />
+        
+          <strong>&lt;img src="afbeeldingen/bloem.jpg" alt="foto van een bloem." width="480" /&gt; <br /><br /></strong>
+        
+          Uit dit voorbeeld valt op te maken, dat <em>img</em> net als <em>br</em> een enkele tag is, 
+          die geen corresponderende eindtag heeft, maar in plaats daarvan eindigt met /&gt;. <br />
+        </p>
+        <p> 
+          <img src="afbeeldingen/bloem.jpg" alt="foto van een bloem" width="480"/>
+        </p>
+	    </article>
+      
+	    <a href = "#top">terug naar boven</a>
+	  </div>  <!-- content -->
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+      <title>Een eenvoudige website - 04</title>
+  </head>
+  <body>
+    <div id = "content">
+      <h1>HTML</h1>
+      
+      <article>
+        <h2> Afbeeldingen toevoegen </h2>
+        <p> 
+          Een afbeelding wordt toegevoegd met een <em>img</em> tag. 
+          Deze tag heeft een zogenaamd <em>attribuut</em> dat verwijst naar het bestand dat de afbeelding bevat. 
+          Een attribuut bestaat altijd uit een naam, in dit geval <em>src</em> (voor "source"), gevolgd door een = teken 
+          en een <em>waarde</em>, die tussen aanhalingstekens wordt geplaatst. 
+          In dit geval is de waarde de locatie waar de afbeelding gevonden kan worden. 
+          Zo geeft <em>src = "afbeeldingen/bloem.jpg"</em> aan dat de bron het .jpg bestand met de naam 'bloem' in de folder 'afbeeldingen' is.
+	      </p>
+	      <p>	
+          Het attribuut <em>alt</em> geeft een beschrijving van de afbeelding. 
+          Dit atribuut is niet verplicht. Het is echter goed gebruik om het wel toe te voegen, 
+          aangezien het wordt getoond als de afbeelding, om wat voor reden dan ook, (nog) niet getoond wordt.
+          Deze tekst wordt ook voorgelezen door systemen voor slechtzienden.
+        </p>
+	      <p> 
+          De grootte van een afbeelding kan zonodig worden ingesteld met de attributen <em>width</em> en <em>height</em>.
+          Onderstaande afbeelding wordt bijvoorbeeld weergegeven met een breedte van 480 pixels.
+          de volledig tag voor deze afbeelding is:<br /><br />
+        
+          <strong>&lt;img src="afbeeldingen/bloem.jpg" alt="foto van een bloem." width="480" /&gt; <br /><br /></strong>
+        
+          Uit dit voorbeeld valt op te maken, dat <em>img</em> net als <em>br</em> een enkele tag is, 
+          die geen corresponderende eindtag heeft, maar in plaats daarvan eindigt met /&gt;. <br />
+        </p>
+        <p> 
+          <img src="afbeeldingen/bloem.jpg" alt="foto van een bloem" width="480"/>
+        </p>
+	    </article>
+    </div>  <!-- content -->
+  </body>
+</html>
