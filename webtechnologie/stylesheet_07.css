@@ -1,0 +1,36 @@
+body {
+    font-family: "Century Gothic", CenturyGothic, sans-serif;
+    font-size: 11pt;
+    
+    background-color: black;
+    
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 40%;
+    min-width: 200px;
+    
+    margin-left: 5%;
+}
+
+article {
+    background-color: olivedrab;
+    
+    border: 1px solid black;
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    
+    color: white;
+}
+
+article:first-letter {
+  font-size: 1.5em;
+}
