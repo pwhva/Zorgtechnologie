@@ -1,0 +1,105 @@
+body {
+    font-family: "Century Gothic", CenturyGothic, sans-serif;
+    font-size: 11pt;
+    
+    background-color: black;
+    background-image: url('afbeeldingen/Plitvice.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    float: left;
+
+    width: 40%;
+    min-width: 200px;
+    
+    margin-left: 5%;
+}
+
+article {
+    background-color: olivedrab;
+    opacity: 0.9;
+    
+    border: 1px solid black;
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    
+    color: white;
+}
+
+article:first-letter {
+    font-size: 1.5em;
+}
+
+article img, aside img {
+    width: 50%;
+    border: 1px solid black; 
+}
+
+header {
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline;
+    margin-right: 2em;
+}
+
+nav li a {
+    font-family: tahoma, sans-serif;
+    font-size: 1.2em;
+    background-color: black;
+    padding: 0.2em;
+}
+
+#add_article {
+    width: 98%;
+}
+
+#zoom {
+    float: left;
+
+    width: 25%;
+    min-width: 200px;
+
+    margin-top: 0.5em;
+    margin-left: 5%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    font-size: 2em;
+
+    color: white;
+    background-color: #060000;
+    opacity: 0.8;
+}
+
+footer {
+    clear: both;
+    margin-left: 5%;
+}
